@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* --- gray color styles --- */
+
+.u_style #header {
+	background: #666 url(../images/header/grayBck.jpg) top left no-repeat;}	/* Header color */
+
+.u_style #headerNavBar {
+	background-color:#900;		/* Header Nav background */
+	border-top-color:#c00;		/* Header Nav top border */
+}
+/* --- headerRight styles (top right bar) --- */
+.u_style #headerRight div ul { 
+	background: #333 url(../images/header/grayBar_corner.gif) left bottom no-repeat;
+}
+  .u_style #search form label { color: #999;}
+
+/* --- header nav bar --- */
+.u_style #headerNavBar a:focus, .u_style #headerNavBar a:hover, .u_style #headerNavBar a:active {
+	color: #fff; 
+	background-color:#c00;
+}
+
+/* --- sideColumn1 styles --- */
+.u_style #sideColumn1 {
+	background: #666;
+}
+
+#sideColumn1 ul li{	border-bottom-color:#888; }
+#sideColumn1 a:link, #sideColumn1 a:visited { 
+	color:#fff; 
+	background-color: #666; 
+}
+#sideColumn1 a:focus, #sideColumn1 a:hover, #sideColumn1 a:active { 
+	color: #fff; 
+	background-color: #444; 
+}
+#sideColumn1 .subnav { background: #999; }
+#sideColumn1 .subnav a:link, #sideColumn1 .subnav a:visited { 
+	color:#fff; 
+	background-color: #999; 
+}
+#sideColumn1 .subnav a:focus, #sideColumn1 .subnav a:hover, #sideColumn1 .subnav a:active { 
+	color: #fff; 
+	background-color: #666; 
+}
+#sideColumn1 h1 { color: #dac092; }
+#sideColumn1 h2 { color: #eee; }
+#sideColumn1 h3 { color: #dac092; }
+#sideColumn1 h4 { color: #eee; }
+#sideColumn1 h5 { color: #dac092; }
+#sideColumn1 h6 { color: #eee; }
+#sideColumn1 p { color: #fff; }
+
+/* --- My.Utah.edu login styles --- */
+#myutahedu { background: #666 url(../images/login/login_gray.gif) no-repeat left top;}
+#myutahedu a:link, #myutahedu a:visited { 
+	color:#fff; 
+	background-color: #666; 
+}
+#myutahedu a:focus, #myutahedu a:hover, #myutahedu a:active { 
+	color:#dac092; 
+	background-color: #888; 
+}
+#myutahedu form label {	color: #fff; }
+
+/* --- sideColumn2 styles --- */
+.u_style #sideColumn2 {
+	background: #dac092;
+}
+#sideColumn2 ul li{	border-bottom: 2px solid #997;}
+#sideColumn2 a:link, #sideColumn2 a:visited { 
+	color:#900; 
+	background-color: #dac092; 
+}
+#sideColumn2 a:focus, #sideColumn2 a:hover, #sideColumn2 a:active  { 
+	color: #fff; 
+	background-color: #c95; 
+}
+#sideColumn2 .subnav { background: #e8cea1; }
+#sideColumn2 .subnav a:link, #sideColumn2 .subnav a:visited { 
+	color:#c00; 
+	background-color: #e8cea1; 
+}
+#sideColumn2 .subnav a:focus, #sideColumn2 .subnav a:hover, #sideColumn2 .subnav a:active { 
+	color: #666; 
+	background-color: #f7e0b8; 
+}
+#sideColumn2 h1 { color: #900; }
+#sideColumn2 h2 { color: #333; }
+#sideColumn2 h3 { color: #900; }
+#sideColumn2 h4 { color: #444; }
+#sideColumn2 h5 { color: #a00; }
+#sideColumn2 h6 { color: #444; }
+#sideColumn2 p { color:#333; }
+#sideColumn2 p a:link, #sideColumn2 p a:visited { 
+	color:#900; 
+	background-color: #dac092; 
+}
+#sideColumn2 p a:focus, #sideColumn2 p a:hover, #sideColumn2 p a:active { 
+	color: #fff; 
+	background-color: #dac092; 
+}
+.side1 { 
+	background: #666;
+	border-right: #bb8d49 7px solid;
+}
+.side2 { 
+	background: #dac092; 
+}

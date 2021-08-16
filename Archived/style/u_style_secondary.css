@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* Secondary Standard Page Stylesheet */
+
+.u_style #content {
+	margin: 0 0 10px 13em;
+} 
+.mid { 
+	background: #fff; /* comment out this line if you want the U medallion in the page background */
+	left: 24%;
+}

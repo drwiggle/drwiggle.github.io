@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* CSS Print Stylesheet */
+
+/* --- global styles --- */
+h1 { font-size: 18pt; color: #000; }
+h2 { font-size: 16pt; color: #000; }
+h3 { font-size: 14pt; color: #444; }
+h4 { font-size: 14pt; color: #444; }
+h5 { font-size: 13pt; color: #000; }
+h6 { font-size: 13pt; color: #444; }
+p { font-size: 12pt; color: #000; }
+a { text-decoration: none; }
+
+/* --- layout styles --- */
+.u_style #wrapper { 
+	position: relative;
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+	margin: 0 auto;
+	background: #fff;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+}  
+.u_style #header {
+	float: none;
+	display: block;
+	width: 100%;
+}
+.u_style #headerRight {
+	display: none;
+}
+.u_style #search {
+	display: none;
+}
+.u_style #headerNavBar {
+	display: none;
+}
+.u_style #content {
+	float: right; 
+	width: 65%;
+	margin: 10px 0 0 0;
+	padding: 0;
+} 
+.u_style #content div{
+	margin: 0;
+	padding: 0;
+} 
+.u_style #content a {
+	text-decoration: none;
+}
+.u_style #content img {
+	max-width: 100%;
+}
+.u_style #sideColumn1 {
+	display: none;
+}
+.u_style #sideColumn2 {
+	clear: both;
+	float: right; 
+	width: 32%;
+	margin: 10px 0 0 0;
+	padding: 0;
+}
+.u_style #sideColumn2 img {
+	max-width: 100%;
+}
+.side1 { 
+	display: none;
+}
+.mid { 
+	display: none;
+}
+.side2 { 
+	display: none;
+}
+.u_style #footer {
+	display: none;
+}
+

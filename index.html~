@@ -1,0 +1,411 @@
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110451777-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110451777-1');
+</script>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Derrick Wigglesworth</title>
+
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Theme CSS -->
+    <link href="css/agency.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <!--<a class="navbar-brand page-scroll" href="#page-top">ajksdfjskdjstrap</a> -->
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll " href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#teaching">Teaching</a>                        
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#research">Research</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#writings">Writings</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="CV.pdf">CV</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <!-- <div class="intro-lead-in">Welcome!</div> -->
+                <!-- <div class="intro-heading">It's Nice To Meet You</div> -->
+                <!-- <a href="#home" class="page-scroll btn btn-xl">Tell Me More</a> -->
+            </div>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" > <!--class="bg-blue"-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 text-center">
+                    <h3 class="section-heading">About Me</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-sm-8">
+
+		  <p>I'm a Visiting Assistant Professor at the University of Arkansas working with the
+		   <a href="https://mattclay.hosted.uark.edu/TopologySeminar/">topology group</a>.  Before that I worked with 
+		   <a href="http://www.math.ou.edu/~jing/">Jing Tao</a> as a Postdoctoral Fellow at the 
+		   <a href="http://www.fields.utoronto.ca/">Fields Institute</a> in Toronto for the Thematic Program 
+		   on Teichmuller Theory and its Connections to Geometry, Topology, and Dynamics.  I completed my PhD at 
+		   the University of Utah under the direction of <a href="http://math.utah.edu/~bestvina/">Mladen Bestvina</a>.  
+		   </p>
+		   
+		   <p>
+		   Most of my research is in the field of geometric group theory, a subject that aims to understand groups using tools from geometry, topology, and dynamics.
+		   I have focused  especially on free groups and their automorphisms, which can be understood as self maps of finite graphs.  Please follow the links
+		   to <a href="#research">research</a> for more information and for a list of publications.
+		  </p>
+		  
+		  <p>I am passionate about mathematics education and love tinkering with new pedagogical tools.  My recent classes
+		   have utilized a "flipped classroom" model of instruction paired with mastery based grading.  I'm always excited
+		    to try new things in an effort to maximize student engagement and learning.  I have led one-on-one reading courses
+		     with undergraduates in Arkansas.  Please follow the link to <a href="#teaching">teaching</a> for sample materials and information coming from these experiences.
+		   </p>
+
+        <div class="row"> <p>  
+<table width=100%> 
+<tr> 
+ <td>
+<b> Email: <a href="mailto:drwiggle@uark.edu">drwiggle@uark.edu </b></a> </td><td><b>Office: SCEN 316</b> </td> </tr>
+</table>
+<br>
+<center> <b>Fall 2020 Office Hours: Mondays 1:00 - 2:00 pm, Thursdays 11:00 am - 12:00 pm</b>
+</p>
+	</div>
+                </div>
+ <div class="row">
+  <div class="col-sm-4">
+    <div class="thumbnail">
+        <img src="img/HeadShotAlgonquin.JPG" style="width:100%; max-width:300px">
+    </div>
+  </div>                                
+               
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- teaching Grid Section -->
+    <section id="teaching" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">teaching</h2>
+                </div>
+            </div>	
+            <br>
+            <div class="container-fluid">
+            <div class="row vertical-align">                
+                <div class="col-xs-6 col-sm-6">
+                                   <h4 class="text-center">University Courses </h4>
+<p class="text-muted">  <h5> University of Arkansas</h5> 
+<a href="321018syllabus.pdf">Math 3210 (Foundations of Real Analysis - Spring 2018)</a> <br>
+ <a href="4800syllabus.pdf">Math 4800 (Introduction to Research "Representation Theory")</a> <br>
+ <a href="files/Math3210Analysis/Syllabus.pdf">Math 3210 (Foundations of Real Analysis - Spring 2017)</a><br>
+
+<p class="text-muted">  <h5> University of Utah</h5> 
+<a href="321018syllabus.pdf">Math 3210 (Foundations of Real Analysis - Spring 2018)</a> <br>
+ <a href="4800syllabus.pdf">Math 4800 (Introduction to Research "Representation Theory")</a> <br>
+ <a href="files/Math3210Analysis/Syllabus.pdf">Math 3210 (Foundations of Real Analysis - Spring 2017)</a><br>
+ <a href="files/Math4030AbstractAlgebra/Syllabus.pdf">Math 4030 (Foundations of Abstract Algebra - Fall 2016)</a><br>
+ <a href="files/Math2270LinearAlgebra/Syllabus.pdf">Math 2270 (Linear Algebra - Spring 2016)</a><br>
+ <a href="files/Math1260Calc3/Syllabus.pdf"> Math 1260 (Multivariable Calculus - Fall 2015)</a></p>
+
+ <p>  I usually base my course websites on Canvas, but copies of exams, syllabi, quizzes and worksheets are available in the <b><a href="files/">Course File Archive</a></b></p>
+
+                </div> 
+                <div class="col-xs-6"> 
+
+<h5> Letters of Recommendation </h5>
+If you'd like me to write you a letter of recommendation for you please see this 
+<a href="Rec.html">page</a>.
+
+<h5> University of Edinburgh </h5> 
+I was the instructor for <b>Math 3 - Introduction to Number Theory</b> where these <a href="writings/NumberTheoryNotes.pdf">lecture notes</a> were developed (with Chris Smyth and Andrew Ranicki)
+<br><br>
+<h5> UC Berkeley </h5> As a graduate student I taught Multivariable Calculus and was a teaching assistant for Calc 1, Calc 2, Discrete Mathematics and Calculus for the Life Sciences.</p>
+                </div>
+            </div>
+            <hr style="height:1px;border:none;color:#444;background-color:#333;" />
+            </div>	
+
+                <div id="UResearch" class="container-fluid">
+                <div class="row"> 
+                <div class="col-sm-6">
+                <h4 class="text-center">Undergraduate Research</h4>
+                <p> I enjoy working on research projects with undergraduates in a variety of settings.  Please see <a href="#seminar">Undergraduate Seminars</a> below for the seminars I have run while at Utah.  I have also led the following REUs:
+                </p>
+                <h5>Utah Summer REU</h5>
+                <p>  In <b>Summer 2016</b>, I supervised Jimmy Seiner (U. Michigan) on a project in commutative algebra and homological algebra.  We continued working after the summer on variants of the Buchsbaum-Eisenbud-Horrocks Rank Conjecture.  Our paper is available <a href="https://arxiv.org/abs/1706.09866">here</a>.</p>
+                <h5> Berkeley Summer REU </h5> 
+                <p>In 2013, I co-organized an REU at UC Berkeley with two other graduate students. We directed a total of 17 undergraduates in three research projects. The REU was funded by the Geometry and Topology RTG. My group of 6 students studied a problem in Combinatorial Commutative Algebra concerning toric ideals.
+
+Our paper <a href="http://arxiv-web3.library.cornell.edu/abs/1309.7630"">Robust Graph Ideals</a> appears in the Annals of Combinatorics.  The students gave two presentations at a conference we organized with Stanford University. Their presentations: <br> 
+<a href="writings/torictalk.pdf">Presentation on Robust Graph Ideals</a> <br>
+<a href="writings/regularitytalk.pdf">Presentation on Regularity</a> <br>
+(Students advised: <a href="https://math.berkeley.edu/people/grad/bryan-brown">Bryan Brown</a>, <a href="http://people.math.gatech.edu/~tduff3/">Timothy Duff</a>, <a href="https://icme.stanford.edu/people/laura-lyman">Laura Lyman</a>, <a href="http://www-personal.umich.edu/~takumim/">Takumi Murayama</a>, <a href="http://www-personal.umich.edu/~anesky/">Amy Nesky</a>, 
+Karl Schaefer) </p>
+
+<h5>University of Notre Dame Summer REU</h5>
+<ul><li>
+In the Summer of 2008 I had the great joy to direct a reading REU at the University of Notre Dame.  I worked with three undergraduate students, <a href="https://sites.google.com/site/joshuamollner/">Josh Mollner</a>, Kaitlyn Moran and <a href="http://emmawhitten.com/">Emma Whitten</a> on the topic of algebraic geometry.  The students learned a short course in algebraic geometry and wrote expository papers and presented at MathFest.
+Their papers and presentations from MathFest are posted below.  I'm really happy with how they turned out.  I think they would be good for a first read in any of these interesting areas. 
+<li> Papers
+<ul><li> <a href="writings/josh.pdf">Don't Stop Believin' there are Group Laws on the Cubics</a>
+<li> <a href="writings/kaitlyn.pdf">Grobner Bases and their Applications </a>
+<li> <a href="writings/emma.pdf">Resolution of Singularities in Algebraic Varieties </a>
+</ul>
+<li>Presentations
+<ul><li> <a href="writings/emmatalk.pdf">Blowups of Algebraic Varieties</a>
+<li> <a href="writings/joshtalk.pdf"> Don't Stop Believin' There's a Group Law on the Cubic</a>
+</ul>
+</ul>
+
+                <h5>  </h5>                
+                </div>
+                <div class="col-sm-6">
+                        <div class="row">
+                        <img class="img-centered img-responsive" src="img/WithJimmy.jpg">
+                        <p class="text-muted"> Jimmy after his talk in the Utah Commutative Algebra Seminar </p>
+                        </div>
+                        <div class="row">
+                        <img class="img-centered img-responsive" src="img/Graph.png">
+                        <p>A graph whose toric ideal has primitive but not indispensible binomials (with 2013 REU students)</p>
+                        </div>
+                        <div class="row">
+                        <img class="img-centered img-responsive" src="img/REUPhoto.jpg">
+                        <p class="text-muted">The Berkeley REU 2013</p>                       </div>
+                        </div>
+            </div>
+            </div>
+
+       
+                <div id="seminar" class="container-fluid">
+           <hr style="height:1px;border:none;color:#444;background-color:#333;" />
+                           <div class="row vertical-align"> 
+                <div class="col-sm-6">
+                        <br><h4 class="text-center">Undergraduate Seminar Courses</h4>
+                        <p class="text-center">  At the University of Utah I have organized undergraduate seminars each semester.  In these weekly meetings, students took turns presenting material or solving exercises.   The topics are listed below: </p>
+                </div>
+                <div class="col-sm-6">
+                        <img src="img/Noble.jpg" style="width:100%; max-width:400px">
+                        <p class="text-muted">Noble exhibiting the fundamental group of Utah.</p>
+                </div>        
+                        </div>
+                        
+<br>                <div class="col-md-6">
+<p> <b>(Spring 2017) Hyperbolic Geometry: </b> Following <a href="http://www.maths.manchester.ac.uk/~cwalkden/hyperbolic-geometry/hyperbolic_geometry.pdf">lecture notes</a> by Charles Walkden.  Topics included - the upper half plane and disc models of hyperbolic space, Moebius transformations, geodesics, and the Gauss-Bonnet Theorem.  This semester I invited <a href="https://sites.williams.edu/cadams/">Colin Adams</a> (and his cousin-in-law Sir Randolph Bacon III) to visit the students and speak to the department.
+<br><br>
+<b> (Fall 2016) Knot Theory: </b>  Following <a href="https://www.amazon.com/Knot-Book-Colin-Adams/dp/0821836781">The Knot Book</a> by Colin Adams, students learned the basics of knots and links.  The second half of the semester was devoted to open-ended projects where students read expository or research papers and gave presentations. Group project titles included "The Fundamental Group", "An Introduction to Lattice Knots and Lattice Stick Numbers", "Moebius Transformations, Geodesics, and Knot Energy", and  "The part knot theory plays in quantum money."
+</p>
+</div>
+         <div class="col-md-6">
+<p><b>(Spring 2016)  Groups and Combinatorics: </b>  A course going over the basic structures of groups via examples coming from geometry and number theory.  We covered the dihedral group, Euclidean algorithm, and symmetric group.  The final day culminated with a computation of the number of <a href="https://en.wikipedia.org/wiki/Derangement">derangements</a> in the symmetric group.
+<br> <br>
+ <b> (Fall 2015) Freshman Topology Seminar: </b> (following <a href="https://www.amazon.com/First-Concepts-Topology-Mathematical-Library/dp/0883856182">First Concepts of Topology</a> by Chinn and Steenrod.)  The main goal was to introduce students to point set topology and proofs.  This culminated with a proof of the intermediate value theorem. 
+                        </p>
+                        </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research" >
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Research</h2>
+                    <h5 class="text-muted"> Geometric Group Theory</h5> <br>
+                </div>
+            </div>
+            <div class="row">
+            	<div class="col-sm-4">  
+            	     <br> <br>
+					<img class="img-centered img-responsive" src="img/latticenew.jpg" style="width:100%; max-width:300px">
+					<p class="text-muted">  (The Moebius function on the lattice of flats of matroid computes multi-graded Betti numbers of an associated ideal) </p>
+            	</div>
+                <div class="col-sm-8"> <hr>
+                <h3>Research Interests</h3> 	
+<p> 
+My research broadly concerns the study of infinite, finitely generated groups as geometric objects.  I am particularly interested 
+in studying the way in which geometric information is preserved (or changed) upon deformation.  Using these techniques I've been able to better understand the minimal free resolution and minimal generating sets of many classes of ideals arising from determinants, matroids, and graphs.  It has also allowed us to better understand the way that the deviations of algebras (which are determined by its Poincar&eacute; series) behave.
+<br> <br> 
+In a rather different direction, recently I've been very interested in bounding the Betti numbers of certain classes of modules.  
+In work with Adam Boocher, we used Boij-Soederberg theory to find strong lower bounds for the Betti numbers of modules over a polynomial ring that have small regularity relative to the minimal degree of a first syzygy.</p>
+
+<p> Electronic copies of my papers are linked below.</p>
+
+<p>  Here is my <a href="CV.pdf">CV</a>. </p> 
+<br>   
+		</div>
+ 		</div>
+	<div class="row text-center">
+ <h3> Links to Research papers </h3> <hr>	
+  	</div>
+	<div class="row">
+	<div class="col-sm-6"> 
+[4]. <a href="https://arxiv.org/abs/1903.12503">Large lower bounds for the Betti numbers of graded modules with low regularity</a> (with A. Boocher) <i> Submitted </i> <br>
+[3]. <a href="https://arxiv.org/abs/1612.01558">Farrell-Jones Conjecture for free-by-cyclic groups </a> (with M. Bestvina, K. Fujiwara) <br>
+[2]. <a href="https://arxiv.org/abs/1710.10478">Loxodromics for the cyclic splitting complex</a> (with R. Gupta) <i> published in Pacific Journal of Mathematics </i> <br>
+[1]. <a href="https://arxiv.org/abs/1612.01134">Distortion for abelian subgroups of Out(Fn)</a><i> published in International Journal of Algebra & Computation </i>  <br>
+</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- Writings Section -->
+    <section id="writings" >
+        <div class="container">
+		<div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Writings and Resources</h2><br>
+                </div>
+        </div>
+		
+		<div class="row">
+		<div class="col-sm-6">
+		<h5>Number Theory Notes </h5> - From Math 3 at the University of Edinburgh:  <a href="writings/NumberTheoryNotes.pdf">Lecture Notes</a>.
+		<h5>Algebraic Geometry</h5> <p>Some notes (ca 2007) on Algebraic Geometry from a mini-course I ran at Notre Dame.  <br>  
+		<ul><li><a href="writings/agnotes.pdf"> Lecture Notes</a> -  quick jog from the basics of ring theory to Hilbert Functions and Bezout's Theorem.  (A next step might be this paper of Eisenbud, Green and Harris <a href="https://www.msri.org/m/people/members/de/papers/pdfs/1996-001.pdf"> Cayley-Bacharach Theorems and Conjectures</a>.)
+		<li> Notes on <a href="writings/fres.pdf">Free Resolutions</a> </p>
+                </ul>
+<h5> Workshop for High School Teachers </h5>  
+<p> In Summer 2017, with Troy Jones and Ray Barton, I organized a workshop for high school teachers in Sandy, Utah.  The theme was symmetry, and here is a link to some of the <a href="SandyWorkshop/Worksheets.pdf"> math activities</a> we did each morning.
+		</div>
+		<div class="col-sm-6">
+		<h5>From Others</h5> 
+		<p> I have recently become a big fan of <a href="https://www.youtube.com/channel/UC1_uAIS3r8Vu6JjXWvastJg">Mathologer</a> on Youtube.  
+My <a href="https://youtu.be/jcKRGpMiVTw">favorite video</a> helps make sense of the "equality" $$ 1 + 2 + 3 + 4 + \cdots = -\frac{1}{12}$$
+by first looking at different types of convergence and then discussing analytic continuations and the gamma function!  For those interested in an introduction to higher level math without brushing anything under the rug - this is the channel for you!
+		</p>
+		</div>
+		
+		</div>
+		</div>
+		
+	</section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Adam Boocher 2017</span> <br>
+                  
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <!--<li><a href="https://www.facebook.com/adam.boocher"><i class="fa fa-twitter"></i></a>
+                        </li> -->
+                        <li><a href="https://www.facebook.com/adam.boocher"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="https://www.youtube.com/user/adviolin"><i class="fa fa-youtube"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                  <p>The two photos of me above are by Barbara Johnston/University of Notre Dame from my visit there in 2015.
+</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+  
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/agency.min.js"></script>
+
+   
+
+</body>
+
+</html>

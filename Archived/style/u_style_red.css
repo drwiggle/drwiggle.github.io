@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* --- red color styles --- */
+
+.u_style #header {
+	background: #900 url(../images/header/redBck.gif) top left no-repeat;}	/* Header color */
+
+.u_style #headerNavBar {
+	background-color:#8f5917;		/* Header Nav background */
+	border-top-color:#dac092;		/* Header Nav top border */
+}
+/* --- headerRight styles (top right bar) --- */
+.u_style #headerRight div ul { 
+	background: #333 url(../images/header/redBar_corner.gif) left bottom no-repeat;
+}
+ .u_style #search form label { color: #900;}
+
+/* --- header nav bar --- */
+.u_style #headerNavBar a:focus, .u_style #headerNavBar a:hover, .u_style #headerNavBar a:active {
+	color: #000; 
+	background-color:#dac092;
+}
+
+/* --- sideColumn1 styles --- */
+.u_style #sideColumn1 {
+	background: #900;
+}
+
+#sideColumn1 ul li{	border-bottom-color:#7e0000; }
+#sideColumn1 a:link, #sideColumn1 a:visited { 
+	color:#fff; 
+	background-color: #900; 
+}
+#sideColumn1 a:focus, #sideColumn1 a:hover, #sideColumn1 a:active { 
+	color: #fff; 
+	background-color: #600; 
+}
+#sideColumn1 .subnav { background: #b00; }
+#sideColumn1 .subnav a:link, #sideColumn1 .subnav a:visited { 
+	color:#fff; 
+	background-color: #b00; 
+}
+#sideColumn1 .subnav a:focus, #sideColumn1 .subnav a:hover, #sideColumn1 .subnav a:active { 
+	color: #fff; 
+	background-color: #900; 
+}
+#sideColumn1 h1 { color: #dac092; }
+#sideColumn1 h2 { color: #eee; }
+#sideColumn1 h3 { color: #dac092; }
+#sideColumn1 h4 { color: #eee; }
+#sideColumn1 h5 { color: #dac092; }
+#sideColumn1 h6 { color: #eee; }
+#sideColumn1 p { color: #fff; }
+
+/* --- My.Utah.edu login styles --- */
+#myutahedu { background: #900 url(../images/login/login_red.gif) no-repeat left top;}
+#myutahedu a:link, #myutahedu a:visited { 
+	color:#fff; 
+	background-color: #900; 
+}
+#myutahedu a:focus, #myutahedu a:hover, #myutahedu a:active { 
+	color:#dac092; 
+	background-color: #600; 
+}
+#myutahedu form label {	color: #fff; }
+
+/* --- sideColumn2 styles --- */
+.u_style #sideColumn2 {
+	background: #adb091;
+}
+#sideColumn2 ul li{	border-bottom: 2px solid #997;}
+#sideColumn2 a:link, #sideColumn2 a:visited { 
+	color:#900; 
+	background-color: #adb091; 
+}
+#sideColumn2 a:focus, #sideColumn2 a:hover, #sideColumn2 a:active  { 
+	color: #fff; 
+	background-color: #886; 
+}
+#sideColumn2 .subnav { background: #cca; }
+#sideColumn2 .subnav a:link, #sideColumn2 .subnav a:visited { 
+	color:#c00; 
+	background-color: #cca; 
+}
+#sideColumn2 .subnav a:focus, #sideColumn2 .subnav a:hover, #sideColumn2 .subnav a:active { 
+	color: #fff; 
+	background-color: #aa8; 
+}
+#sideColumn2 h1 { color: #900; }
+#sideColumn2 h2 { color: #333; }
+#sideColumn2 h3 { color: #900; }
+#sideColumn2 h4 { color: #444; }
+#sideColumn2 h5 { color: #a00; }
+#sideColumn2 h6 { color: #444; }
+#sideColumn2 p { color:#333; }
+#sideColumn2 p a:link, #sideColumn2 p a:visited { 
+	color:#900; 
+	background-color: #adb091; 
+}
+#sideColumn2 p a:focus, #sideColumn2 p a:hover, #sideColumn2 p a:active { 
+	color: #fff; 
+	background-color: #adb091; 
+}
+.side1 { 
+	background: #900;
+	border-right: #bb8d49 7px solid;
+}
+.side2 { 
+	background: #adb091;
+}

@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS Handheld Stylesheet */
+
+/* --- layout styles --- */
+.u_style #wrapper { 
+	position: relative;
+	width: 100%;
+	max-width: 100%;
+	min-width: 100%;
+	margin: 0 auto;
+	background: #fff;
+}  
+.u_style #header {
+	position: relative;
+	width: 100%;
+	border-top: #333 10px solid;
+}
+
+.u_style #headerLeft {
+	float: left;
+	width: auto;
+	background-color: #900;
+}
+.u_style #headerRight {
+	float: left;
+	width: 20em;
+	background-color: #900;
+}
+.u_style #search {
+	float: left;
+}
+.u_style #headerNavBar {
+	width: 100%;
+	clear: both;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	padding: 0.2em 0 0 0;
+	height: 100%;
+	border-top: #dac092 5px solid;
+	background-color: #8f5917;
+}
+.u_style #sideColumn1 {
+	float: none; 
+	width: 100%;
+	padding: 0;
+	border-right: none;
+}
+.u_style #sideColumn2 {
+	float: none; 
+	width: 100%;
+	padding: 0;
+}
+.u_style #content {
+	margin: 0;
+} 
+.side1 {
+	display: none; 
+}
+.mid { 
+	display: none; 
+}
+.side2 { 
+	display: none; 
+}
+#footer {
+	clear: both;
+	min-height: 30px;
+	background-color: #333;
+	text-align: center;
+	margin: 0;
+	padding: .2em 0;
+}
+

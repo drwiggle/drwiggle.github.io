@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* 58em, Fixed Width Stylesheet */
+
+/* Vertical page layout (portrait)
+Delete or comment out the link to this stylesheet in the head section
+of your webpage to make a flexible width page */
+
+.u_style #wrapper { 
+	width: 58em;
+	max-width: 58em;
+	min-width: 58em;
+	margin: 0 auto;
+}
+.u_style #content div {
+	width: 90%;
+}
+
+.side1 { 
+	width: 21%; 
+}

@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* CSS Print Stylesheet */
+
+.u_style #content {
+	float: right; 
+	width: 100%;
+	margin: 10px 0 0 0;
+	padding: 0;
+} 
+.u_style #sideColumn2 {
+	display: none;
+}

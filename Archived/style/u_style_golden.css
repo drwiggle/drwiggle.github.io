@@ -1,0 +1,100 @@
+.u_style #golden_cv {
+	font-family: Times, san-serif;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+.u_style #golden_cv H1 {
+	font-family: Times, san-serif;
+	font-size: 24px;
+	font-weight: normal;
+	letter-spacing: 0;
+	color: #000;
+	padding: .5em;
+	margin: 0;
+	border: 0;
+	text-align: center;
+}
+.u_style #golden_cv H2 {
+	font-family: Times, san-serif;
+	font-size: 20px;
+	font-weight: normal;
+	letter-spacing: 0;
+	padding: .5em .5em .5em 0;
+	color: #000;
+	margin: 0;
+	border: 0;
+	text-align: left;
+}
+.u_style #golden_cv P {
+	font-family: Times, san-serif;
+	font-size: 16px;
+	padding: .3em;
+	margin: 0;
+	border: 0;
+	text-align: left;
+}
+.u_style #golden_cv UL LI {
+	font-family: Times, san-serif;
+	list-style-type: inherit;
+	list-style-position: outside;
+	padding: 0 0 0 .5em;
+	margin: 0 0 0 .9em;
+	border: 0;
+	font-size: 16px;
+	text-align: left;
+}
+.u_style #golden H1 {
+	font: 100.01% Arial, Helvetica, "Trebuchet MS",Verdana, sans-serif;
+	font-size: 130%; color: #666; letter-spacing: .02em;
+	text-align: left;
+	padding: 0.85em 0 0.5em 0;
+/*	font-family: "New Times Roman", Times, san-serif; */
+/*	font-size: 24px; */
+	font-weight: bold;
+/*	letter-spacing: 0; */
+/*	color: #000; */
+/*	padding: .5em; */
+	margin: 0;
+	border: 0;
+/*	text-align: center; */
+}
+/*
+.u_style #golden H2 {
+	font-family: "New Times Roman", Times, san-serif;
+	font-size: 20px;
+	font-weight: normal;
+	letter-spacing: 0;
+	padding: .5em .5em .5em 0;
+	color: #000;
+	margin: 0;
+	border: 0;
+	text-align: center;
+}
+ */
+.u_style #golden P {
+	font-family: "New Times Roman", Times, san-serif;
+	font-size: 16px;
+	padding: .3em;
+	margin: 0;
+	border: 0;
+	text-align: left;
+}
+.u_style #golden UL LI {
+	font-family: "New Times Roman", Times, san-serif;
+	list-style-type: inherit;
+	list-style-position: outside;
+	padding: 0 0 0 .5em;
+	margin: 0 0 0 .9em;
+	border: 0;
+	font-size: 16px;
+	text-align: left;
+}
+.u_style #golden_front P {
+	font-family: "New Times Roman", Times, san-serif;
+	font-size: 16px;
+/*	padding: .3em; */
+	margin: 0;
+	border: 0;
+	text-align: center;
+}

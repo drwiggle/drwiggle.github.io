@@ -1,0 +1,605 @@
+@charset "UTF-8";
+/* University of Utah Stylesheet */
+/* Design by David Titensor (dave.titensor@ucomm.utah.edu) */
+/* Templates by U of U Media Solutions (contact-us@media.utah.edu) */
+
+/* Version 1.1, Released May 2007
+Version 1.1 enhancements include:
+	- Organization name is now an image and replaces text-based title.
+	- Templates now support resizable text for browser zoom features.
+	- Fine-tuning of visual elements and code. */
+	
+/* --- global styles --- */
+
+/* it's good practice to zero the margin, padding, and other elements to account for differing browser defaults */
+html, body, div, ul, ol, li p, h1, h2, h3, h4, h5, h6, form, fieldset {
+	margin: 0;
+	padding: 0; 
+	border: 0;
+}
+body  {
+	font: 100.01% Arial, Helvetica, "Trebuchet MS",Verdana, sans-serif;
+	background: #666 url(../images/background/page-bg.gif) repeat;
+	color: #000;
+	text-align: center; /* this centers the wrapper in IE 5* browsers. The text is then set to the left aligned default in the #wrapper selector */
+}
+h1 { padding: 0.85em 0 0.5em 0; }
+h2, h3 { padding: 0.5em 0 0.2em 0; }
+h4, h5, h6 { padding: 0.5em 0 0 0; }
+h1 { font-size: 130%; color: #666; letter-spacing: .02em; }
+h2 { font-size: 110%; color: #900; }
+h3 {
+	font-size: 85%;
+	color: #333;
+	text-transform: uppercase;
+	letter-spacing: .02em;
+	margin-bottom: 10px;
+	border-bottom: 2px #ccc solid;
+}
+h4 { font-size: 90%; color: #666; line-height: 1.0em; }
+h5 { font-size: 85%; color: #c00; }
+h6 { font-size: 85%; color: #333; font-family: Georgia, "Times New Roman", Times, serif; }
+p { 
+	font-size: 90%; 
+	color: #000; 
+	margin: 0.2em 0 0.8em 0; 
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+strong { font-weight: bold; color: #333; }
+em { font-style: italic; }
+a { font-weight: normal; }
+a:link { color: #8f5917; text-decoration: underline; }
+a:visited { color: #666; text-decoration: underline; }
+a:focus, a:hover, a:active { color: #600; text-decoration: none; }
+hr {
+	border: 0;
+	color: #777;
+	background-color: #777;
+	height: 2px;
+	width: 100%;
+	margin: 5px 0;
+	text-align: left;
+}
+
+/* --- page layout styles --- */
+
+.u_style #wrapper { 
+	position: relative;
+	z-index: 5;
+	width: 90%;
+	max-width: 75em;
+	min-width: 58em;
+	margin: 0 auto;
+	background: #fff;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+}  
+.u_style #header { 
+	position: relative;
+	z-index: 5;
+	width: 100%;
+	border-top: #333 10px solid;
+}
+.u_style #headerLeft {
+	float: left;
+	width: auto; 
+}
+.u_style #headerRight {
+	position: relative;
+	float: right;
+	width: 20em;
+}
+.u_style #headerNavBar {
+	clear: both;
+	width: 100%;
+	height: 1em;
+	color: #fff;
+	text-align: center;
+	padding: 0.2em 0 0 0;
+	border-top: 5px solid;
+}
+.u_style #innerWrapper{
+	position:relative;
+	z-index:4;
+	width: 100%;
+	max-width: 75em;
+	min-width: 58em;
+	background: #fff;
+	clear:both;
+}
+.u_style #sideColumn1 {
+	position: relative;
+	z-index: 1;
+	float: left; 
+	width: 11.5em; /* since this element is floated, a width must be given */
+	padding: 15px 0; /* top and bottom padding create visual space within this div */
+}
+.u_style #sideColumn2 {
+	position: relative;
+	z-index: 1;	
+	float: right; 
+	width: 23%; /* since this element is floated, a width must be given */
+	padding: 0 0 30px 0; /* top and bottom padding create visual space within this div */
+}
+.u_style #sideColumn1 div {
+	margin: 0 0 0 10px; /* this creates the left and right margin for the side columns */
+}
+.u_style #sideColumn2 div {
+	margin: 0 20px 0 20px; /* this creates the left and right margin for the side columns */
+}
+.u_style #content {
+	position:relative;
+	z-index: 1;
+	margin: 0 14em 0 13em;
+} 
+.u_style #content div {
+	margin: 0 20px 0 10px; /* padding here creates white space "inside the box." */
+	width: 88%;
+}
+.col{
+	position: absolute;
+	z-index: 0;
+	left: 0;
+	bottom: 0;
+}
+.side1 { 
+	position: absolute;
+	z-index: 0;
+	bottom: 0;
+	width: 12em; 
+}
+.mid { 
+	position:absolute;
+	z-index: 0;
+	bottom: 0;
+	width: 50%; 
+	background: #fff url(../images/background/uofu_medallion_lt.gif) bottom left no-repeat;
+	left: 22%;
+}
+.side2 { 
+	position:absolute;
+	z-index: 0;
+	bottom: 0;
+	width: 24%;
+	left: 76%;
+	border-right: #888 1px solid; /* color should be a bit darker than the lightest background color */
+}
+.u_style #footer {
+	clear: both;
+	position: relative;
+	z-index: 5;
+	min-height: 30px;
+	background-color: #333;
+	margin: -0.1em 0 0 0;
+	padding: 0 0 8px 0;
+} 
+.u_style #footer p, .u_style #footer ul {
+	text-align: center;
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+}
+html>body .col { top: 0 } /* hide from ie6 and under  */
+.clearer {
+	height: 1px;
+	overflow: hidden;
+	margin-top: -1px;
+	clear: both;
+}
+
+/* --- header styles --- */
+
+/* --- headerRight styles (top right bar) --- */
+.u_style #headerRight div ul {
+	float: right;
+	display: inline;
+	list-style: none;
+	font-size: 70%;
+	color: #dac092;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 .7em .5em 2em;
+}
+.u_style #headerRight div ul li {
+	display: inline;
+	padding: 0 .25em 0 .5em;
+	margin: 0;
+}
+.u_style #headerRight div li + li {
+	border-left: #dac092 1px solid;
+}
+.u_style #headerRight div a:link, .u_style #headerRight div a:visited { 
+	color: #fff; 
+	text-decoration: none;	
+}
+.u_style #headerRight div a:focus, .u_style #headerRight div a:hover, .u_style #headerRight div a:active { 
+	color: #dac092; 
+	text-decoration: none; 
+}
+
+/* --- search styles --- */
+#search {
+	float: right;
+	width: 15em;
+	text-align: right;
+	padding: .5em 1em 0 0;
+}
+#search form input {
+	display: inline;
+	margin: 0 .25em 0 0;
+
+}
+#search form label input {
+	width: 10em;
+	height: 1em;
+	margin-bottom: .4em;
+}
+#search form label {
+	font-size: 1px;
+}
+
+/* --- headerNavBar styles --- */
+.u_style #headerNavBar ul {
+	width: 100%;
+	list-style: none;
+	font-size: 70%;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+.u_style #headerNavBar ul li {
+	display: inline;
+	letter-spacing: 0.2em;
+	margin: 0;
+	padding: 0 2px 0 7px;
+}
+.u_style #headerNavBar li + li {
+	border-left: #dac092 2px solid;
+}
+.u_style #headerNavBar a:link, .u_style #headerNavBar a:visited {
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 4px 2px 4px 7px;
+}
+.u_style #headerNavBar a:focus, .u_style #headerNavBar a:hover, .u_style #headerNavBar a:active {
+	font-weight: bold;
+	text-decoration: none;
+	padding: 4px 2px 4px 7px;
+}
+
+/* --- content styles --- */
+#content ul, ol {
+	font-size: 90%;
+	list-style-position: inside;
+	margin: 0.2em 0 0.5em 0.25em;
+}
+#content img {
+	max-width: 100%;
+	margin: 0 0 .1em 0;
+}
+#content table {
+	max-width: 95%; 
+}
+
+/* --- sideColumn1 styles --- */
+#sideColumn1 ul {
+	height: 1%;					/* test */
+	list-style: none;
+	padding: 0;
+	margin: 0 0 .5em 0;
+}
+* html #sideColumn1 ul {
+	height: 1%;					/* IE6 fix to give list "hasLayout" */
+}
+#sideColumn1 ul li{
+	padding: 0;
+	border-bottom: 2px solid #7e0000;
+}
+#sideColumn1 a {
+	display: block;
+	font-weight: normal;
+	font-size: .9em;
+	text-decoration: none;
+	padding: .25em 0 .25em .25em;
+}
+
+#sideColumn1 .subnav {
+	position: relative;  /* Fix for IE6 Hover Bug */
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#sideColumn1 .subnav ul {
+	margin: 0;
+	padding: 0;
+}
+#sideColumn1 .subnav ul li{
+	display: inline; /* Fix for IE excessive space between list items */
+	font-size: .75em;
+	letter-spacing: 0.1em;
+	padding: 0;
+	border-bottom: none;
+}
+#sideColumn1 .subnav a {
+	font-weight: bold;
+	text-decoration: none;
+}
+#sideColumn1 h1, #sideColumn1 div h2 { padding: .5em 0 .2em .2em; }
+#sideColumn1 h3, #sideColumn1 div h4, #sideColumn1 div h5, #sideColumn1 div h6 { padding: 0.5em 0 0 10px; }
+#sideColumn1 h1 { 
+	font-size: 90%;
+	font-weight: normal; 
+	text-transform: uppercase;
+	color: #dac092;
+	padding: .2em 0 .1em 0;
+}
+#sideColumn1 h2 { 
+	font-size: 85%; 
+	font-weight: bold; 
+	color: #eee;
+}
+#sideColumn1 h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 85%;
+	font-weight: normal; 
+	text-transform: uppercase;
+	border-bottom: none; 
+	margin-bottom: 0;
+}
+#sideColumn1 h4 { font-size: 95%; color: #eee; font-weight: normal; }
+#sideColumn1 h5 { font-size: 90%; color: #dac092; font-weight: normal; }
+#sideColumn1 h6 {
+	font-family: Arial, Helvetica, "Trebuchet MS",Verdana, sans-serif;
+	font-size: 85%;
+	color: #000;
+	font-weight: normal;
+	color: #eee;
+}
+#sideColumn1 p {
+	font-family: Arial, Helvetica, "Trebuchet MS",Verdana, sans-serif;
+	font-size: 80%;
+	line-height: 120%;
+	color: #fff;
+	padding: 0.2em 0 0.5em 10px;
+}
+#sideColumn1 p a {
+	display: inline;
+	padding: 0;
+}
+#sideColumn1 img {
+	max-width: 100%;
+	margin-bottom: .25em;
+}
+
+/* --- My.Utah.edu login styles --- */
+#myutahedu {
+	width: 12.5em;
+	color: #fff;
+	font-size: 80%;
+	text-align: left;
+}
+#myutahedu h1 {
+	display: none; /*-- hide replacement image text -- */
+}
+#myutahedu p {
+	font-size: 80%;
+	text-align: center;
+	padding-top: .1em; 
+	}
+#myutahedu img {
+	padding: 0;
+	margin: 0;
+}
+#myutahedu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+#myutahedu ul li {
+	padding: 0;
+	margin: 0;
+	border-bottom: none;
+}
+#myutahedu a {
+	display: inline;
+	font-weight: normal;
+	text-decoration: none;
+	padding: 0;
+}
+
+#myutahedu form {
+	text-align: right;
+}
+#myutahedu form input {
+	margin: .3em;
+}
+#myutahedu form #goBtn {
+	height: 25px;
+	width: 25px;
+	border: none;
+}
+#myutahedu form label {
+	font-size: .75em;
+	color: #fff;
+}
+
+/* --- sideColumn2 styles --- */
+#sideColumn2 ul {
+	list-style: none;
+	font-size: 90%;
+	margin: 0 0 10px 0;
+}
+#sideColumn2 ul li{
+	padding: 0;
+	border-bottom: 2px solid #997;
+}
+#sideColumn2 a {
+	display: block;
+	font-weight: bold;
+	font-size: 90%;
+	text-decoration: none;
+	padding: .1em 0 .1em .25em;
+}
+
+#sideColumn2 .subnav {
+	position: relative;  /* Fix for IE6 Hover Bug */
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background: #cca;
+}
+#sideColumn2 .subnav ul {
+	margin: 0;
+	padding: 0 0 0 10px;
+}
+#sideColumn2 .subnav ul li{
+	display: inline; /* Fix for IE excessive space between list items */
+	font-size: 80%;
+	letter-spacing: 0.1em;
+	padding: 0;
+	border-bottom: none;
+}
+#sideColumn2 .subnav a {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#sideColumn2 h1, #sideColumn2 h2, #sideColumn2 p { padding: 0.5em 0 0.2em 0; }
+#sideColumn2 h3, #sideColumn2 h4, #sideColumn2 h5, #sideColumn2 h6 { padding: 0.5em 0 0 0; }
+#sideColumn2 h1 { font-size: 90%; color: #900; }
+#sideColumn2 h2 { font-size: 85%; color: #333; }
+#sideColumn2 h3 {
+	font-size: 80%;
+	color: #900;
+	text-transform: uppercase;
+	border-bottom: none; 
+	margin-bottom: 0;
+}
+#sideColumn2 h4 { font-size: 90%; color: #444; }
+#sideColumn2 h5 { font-size: 85%; color: #a00; }
+#sideColumn2 h6 {
+	font-family: Arial, Helvetica, "Trebuchet MS",Verdana, sans-serif;
+	font-size: 80%;
+	color: #444;
+}
+#sideColumn2 p {
+	font-family: Arial, Helvetica, "Trebuchet MS",Verdana, sans-serif;
+	text-align: left;
+	margin: 0 0 0.5em 0;
+	font-size: 80%;
+	line-height: 120%;
+	color: #333;
+}
+#sideColumn2 p a {
+	display: inline;
+	padding: 0;
+}
+#sideColumn2 img {
+	max-width: 100%; 	
+	padding: 0;
+	margin: 0;
+}
+
+/* --- footer styles --- */
+.u_style #footer ul {
+	width: 100%;
+	list-style: none;
+	margin: 0;
+	padding: 2px 0 0 0;
+}
+.u_style #footer ul li{
+	display: inline;
+	font-family: Arial, Helvetica, "Trebuchet MS",Verdana, sans-serif;
+	font-size: .6em;
+	font-weight: bold;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 0 .2em 0 .5em;
+}
+.u_style #footer li + li {
+	border-left: #fff 1px solid;
+}
+.u_style #footer a:link, .u_style #footer a:visited { 
+	color: #fff; 
+	text-decoration: none; 	
+}
+.u_style #footer a:focus, .u_style #footer a:hover, .u_style #footer a:active { 
+	color: #dac092; 
+	text-decoration: none; 	
+}
+
+/* --- class styles --- */
+ 
+.clearDirectory { 
+	clear: both;
+    height: 0;
+    font-size: 1px;
+    line-height: 0;
+	margin: 0;
+	padding: 0;
+}
+.leftfloat { /* this class can be used to float an element left in your page */
+	float: left;
+	margin-right: 8px;
+}
+.rightfloat { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.pixLeft { /* this class can be used to put a border on an image and float it left */
+	float: left;
+	margin: 5px 5px 5px 0;
+	border: 1px solid #000;
+}
+.pixRight {  /* this class can be used to put a border on an image and right it left */
+	float: right;
+	margin: 5px 0 5px 5px;
+	border: 1px solid #000;
+}
+.captions {
+	font-family: Arial, Helvetica, "Trebuchet MS",Verdana, sans-serif;
+	font-size: 80%;
+	margin: 20px 0;
+	border-top: 2px #ccc solid;
+	}
+.pullquote {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%;
+	line-height: 1.1em;
+	font-weight: lighter;
+	color: #999;
+	padding: 5px 0;
+	border-top: #999 1px solid;
+	border-bottom: #999 1px solid;
+}
+.tablesubhead {
+	font-family: Arial, Helvetica, "Trebuchet MS",Verdana, sans-serif;
+	font-weight: bold;
+}
+tr.tableHeader {
+	font-family: Arial, Helvetica, "Trebuchet MS",Verdana, sans-serif;
+	font-size: 80%;
+	font-weight: bold;
+	line-height: 1.1em;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-align: center;
+	background-color: #7e7e7e;
+}
+tr.tablerow1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 80%;
+	line-height: 1.1em;
+	color: #333;
+	text-align: center;
+	background-color: #fff;
+}
+tr.tablerow2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 80%;
+	line-height: 1.1em;
+	color: #333;
+	text-align: center;
+	background-color: #dad8d3;
+}

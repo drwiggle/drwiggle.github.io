@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/* --- Secondary Full Page style --- */
+
+.u_style #content {
+	margin: 0 0 0 10px;
+} 
+.mid { 
+	background: #fff; /* comment out this line if you want the U medallion in the page background */
+}

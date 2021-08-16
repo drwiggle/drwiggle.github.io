@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Derrick Wigglesworth's Website</title>
+<link href="../style/u_style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="../style/u_style_gray.css" rel="stylesheet" type="text/css" media="all" />
+<link href="../style/u_style_fixedWidth.css" rel="stylesheet" type="text/css" media="all" /> 
+<link href="../style/u_style_print.css" rel="stylesheet" type="text/css" media="print" />
+<link href="../style/u_style_handheld_gray.css" rel="stylesheet" type="text/css" media="handheld" />
+
+<script language="JavaScript" type="text/javascript" src="../scripts/popUp.js"></script>
+
+<!-- standard Dreamweaver script for rollover images -->
+<script type="text/javascript">
+
+</script>
+
+</head>
+
+<body class="u_style" onload="MM_preloadImages('../images/spotImages/sampleImgs/testBtn_2.gif')">
+<!-- begin #wrapper -->
+<div id="wrapper">
+  <!-- begin #header -->
+  <div id="header">
+   <!-- begin #headerWrapper -->
+     <div id="headerWrapper">      
+       <!-- begin #headerLeft -->
+       <div id="headerLeft">
+         <a href="http://www.utah.edu"><img src="../images/header/U_Logo_grayBck.gif" alt="The University of Utah" width="70" height="65" border="0" /></a><a href="http://www.utah.edu"><img src="../math_gray.gif" alt="U of U Campus Organization" width="349" height="65" border="0" /></a>  
+       <!-- end headerLeft --></div>
+       <!-- begin headerRight -->
+       <div id="headerRight">
+            <div>      
+              <ul>
+                <li>campus:&nbsp;&nbsp;<a href="http://www.utah.edu/a_z/index.html" target="_blank">a to z index</a></li>
+                <li><a href="http://www.map.utah.edu/index.jsp" target="_blank">map</a></li>
+                <li><a href="http://www.acs.utah.edu/prod/hrbin/campus-directory" target="_blank">directory</a></li>
+                <li><a href="http://www.events.utah.edu/" target="_blank">calendar</a></li>
+              </ul>
+            </div>
+  	      <!-- begin search -->
+            <div id="search">
+              <form method="get" action="http://www.utah.edu/redirect-search/search.utah.edu:8765/query.html" target="_blank" >
+                  <input type="hidden" name="ref" value="uofuhome" />
+                  <label>Search:<input name="qt" type="text" accesskey="s" tabindex="0" size="20" maxlength="50" style="vertical-align:top;margin-top:0.125em;" /></label>
+                  <input name="image2" type="image" src="../images/header/searchBtn_gray.gif" alt="Search" />
+              </form>
+	      <!-- end search --></div>
+        <!-- end headerRight --></div>
+      <!-- end headerWrapper --></div>
+    <!-- begin headerNavBar -->
+      <div id="headerNavBar">
+        <ul>
+          <li><a href="http://math.utah.edu">Mathematics Department</a></li>
+          <li><a href="http://science.utah.edu">College of Science</a></li>
+          <li><a href="http://www.utah.edu">University of Utah</a></li>
+        </ul>
+      <!-- end headerNavBar --></div>
+  <!-- end #header --></div>
+    <!-- begin innerWrapper -->
+	<div id="innerWrapper">
+      <!-- begin #sideColumn1 -->
+      <div id="sideColumn1">
+        <div>    
+          <ul>
+	    <li><a href="../index.html">Home</a></li>
+	    	<li><a href="../current.html">Current Teaching</a></li>
+			<li><a href="../advising.html ">Office Hours</a></li>
+            <li><a href="../past.html">Past Teaching</a></li>
+	        <li><a href="../evaluations.html">Evaluations</a></li>
+	        <li><a href="../links.html">Other Links</a></li>
+	
+	       
+            
+	    </div>
+    <!-- end #sideColumn1 -->
+      </div>
+      <!-- begin #sideColumn2 -->
+      <div id="sideColumn2">
+        <div>    
+        <a href=" ">  <!--<img src="" alt=" Derrick Wigglesworth"></a>-->
+          <h4> Derrick Wigglesworth</h4>
+<p>
+Graduate Student </a>
+ </p>
+
+<p>
+Office: <a href="http://www.map.utah.edu/index.jsp?code=JWB">JWB 121</a><br>
+Email: <a href="mailto:dwiggles@math.utah.edu">dwiggles@math.utah.edu</a>
+	  
+
+</p>
+
+
+<P ALIGN=Left>
+University of Utah<br>
+Department of Mathematics<br>
+155 S. 1400 E. JWB 233<br>
+Salt Lake City, UT<br>
+84112-0090 USA
+</P>
+	  
+	    </div>
+     <!-- end #sideColumn2 -->
+      </div>
+      <!-- begin #content -->
+      <div id="content">
+        <div>    
+         
+<!-- -*-html-*- -->
+<!-- index.html -->
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+
+
+<HTML>
+    <HEAD>
+        <TITLE>
+           Math1060
+        </TITLE>
+    </HEAD>
+    <BODY>
+        <H1>
+            Math1060 Trigonometry <br>
+	    Fall, 2013 <br>
+        </H1>
+
+	<P> <br>
+	     <h3>Course Materials</h3>
+	   <ul>
+	 	<li> <a href="math1060/math1060syllabus.pdf"> Syllabus </a> <br> <br>
+	 	<li> <a href="math1060/math1060textbook.pdf"> Textbook/WebAssign Information </a> <br> <br>
+		<li> <a href="math1060/math1060courseoutline.html"> Course Outline (Schedule) </a> <br> <br>
+		<li> <a href="http://www.math.utah.edu/lectures/math1060.html"> Lecture Videos </a> <br> <br>
+		<li> <a href="math1060/math1060homework.html"> Practice Homework Problems </a> <br> <br>
+		<li> <a href="https://www.webassign.net/login.html"> Enhanced WebAssign </a> <br> <br>
+		<li> <a href="math1060/math1060handout.pdf"> &sect 10.8 Handout </a> <br> <br>
+	   </ul>
+
+	   <h3> Exam Reviews</h3>
+	   
+	   <ul>
+	 	<li> <a href="math1060/math1060midterm1guide.pdf"> Midterm 1 Study Guide </a> <br> <br>
+	 	<li> <a href="math1060/math1060midterm1practice.pdf"> Midterm 1 Practice Problems </a> <br> <br>
+	 	<li> <a href="math1060/math1060midterm1practiceans.pdf"> Midterm 1 Practice Answers </a> <br> <br>
+	 	<li> <a href="math1060/math1060midterm2guide.pdf"> Midterm 2 Study Guide </a> <br> <br>
+	 	<li> <a href="math1060/math1060midterm2practice.pdf"> Midterm 2 Practice Problems </a> <br> <br>
+	 	<li> <a href="math1060/math1060midterm2practiceans.pdf"> Midterm 2 Practice Answers </a> <br> <br>
+	 	<li> <a href="math1060/math1060midterm3guide.pdf"> Midterm 3 Study Guide </a> <br> <br>
+	 	<li> <a href="math1060/math1060midterm3formulas.pdf"> Midterm 3 Cheat Sheet </a> <br> <br>
+	  	<li> <a href="math1060/math1060midterm3practice.pdf"> Midterm 3 Practice Problems </a> <br> <br>
+	 	<li> <a href="math1060/math1060midterm3practiceans.pdf"> Midterm 3 Practice Answers </a> <br> <br>
+The study guide for the final exam contains questions from all the sections we have covered. Some of the questions are exactly the same as those on previous study guides. Others are similar with slight modifications. The final exam will be comprehensive, but will be weighted more heavily towards material that you have not yet been tested on. <br> <br>
+	 	<li> <a href="math1060/math1060finalguide.pdf"> Final Exam Study Guide </a> <br> <br>
+	  	<li> <a href="math1060/math1060finalpractice.pdf"> Final Exam Practice Problems </a> <br> <br>
+<!--	  	<li> <a href="math1060/math1060finalpracticeans.pdf"> Final Practice Answers </a> <br> <br>
+-->
+	   </ul>
+
+
+
+	</P>
+    </BODY>
+</HTML>
+ 
+	  
+
+<P ALIGN=Left>
+	 
+</p>
+	
+	</div>
+	  <!-- end #content --></div>
+    <!-- Divs which control equal column behavior. Do not remove -->
+      <div class="clearer"></div>
+	  <div class="col side1"></div>
+	  <div class="col mid"></div>
+	  <div class="col side2"></div>
+      <!-- end innerWrapper --></div>
+  <!-- begin #footer -->
+  <div id="footer">
+    <ul>
+	  <li>&copy;2008 The University of Utah</li>
+	  <li>Mathematics Department, 155 S. 1400 E. JWB 233 </li>
+	  <li>801.581.7653</li>
+    </ul>
+    <ul>
+	  <li><a href="http://www.utah.edu/" target="_blank">The University of Utah</a></li>
+	  <li><a href="mailto:dwiggles@math.utah.edu">Webmaster</a></li>
+	  <li><a href="http://www.utah.edu/disclaimer/index.html" target="_blank">Disclaimer</a></li>
+	  <li><a href="http://www.utah.edu/privacy/" target="_blank">Privacy</a></li>
+ <P> &nbsp; </p>
+    <ul><li>Website designed by<a href="http://pat.isgenius.com" target="_blank"> Pattie Dunn</a>, all rights reserved &copy; Mathematics Department, University of Utah</li>	  
+    </ul>
+  <!-- end #footer --></div>
+<!-- end #wrapper --></div>
+</body>
+</html>
